@@ -5,7 +5,7 @@ require("etc/config.php") or die("Unable to load configuration file."); // Load 
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test</title>
+  <title><?php echo $sitename; ?></title>
   <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
