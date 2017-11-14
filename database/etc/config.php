@@ -1,3 +1,4 @@
 <?php
+$sitename = "LegendsDatabase";
 
 ?>
