@@ -1,4 +1,28 @@
-height: 200px; /* Should be removed. Only for demonstration */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
 }
 
 /* Left and right column */
